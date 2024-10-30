@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0.1 (Python 3.12.4 on win32)" generated="2024-10-29T21:10:08.461819" rpa="false" schemaversion="5">
+<suite id="s1" name="SuiteCompras" source="c:\Users\u24464\Documents\GitHub\PO\suites\SuiteCompras.robot">
+<test id="s1-t1" name="Checkout - Total da Compra" line="104">
+<kw name="Acessar Pagina Principal">
+<kw name="Acessar pagina Saucedemo">
+<msg time="2024-10-29T21:10:08.635336" level="FAIL">No keyword with name 'Acessar pagina Saucedemo' found.</msg>
+<status status="FAIL" start="2024-10-29T21:10:08.635336" elapsed="0.001000">No keyword with name 'Acessar pagina Saucedemo' found.</status>
+</kw>
+<kw name="Preecher Login e Senha" owner="loginPage">
+<status status="NOT RUN" start="2024-10-29T21:10:08.636336" elapsed="0.000000"/>
+</kw>
+<kw name="Logar" owner="loginPage">
+<status status="NOT RUN" start="2024-10-29T21:10:08.636336" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-10-29T21:10:08.633336" elapsed="0.003000">No keyword with name 'Acessar pagina Saucedemo' found.</status>
+</kw>
+<kw name="Adicionar Produto">
+<arg>${backpack_selector}</arg>
+<status status="NOT RUN" start="2024-10-29T21:10:08.637336" elapsed="0.000000"/>
+</kw>
+<kw name="Adicionar Produto">
+<arg>${bike_light_selector}</arg>
+<status status="NOT RUN" start="2024-10-29T21:10:08.637336" elapsed="0.000000"/>
+</kw>
+<kw name="Quantidade de Produtos deve ser">
+<arg>2</arg>
+<status status="NOT RUN" start="2024-10-29T21:10:08.637336" elapsed="0.000000"/>
+</kw>
+<kw name="Acessar Carrinho de Compra">
+<status status="NOT RUN" start="2024-10-29T21:10:08.638336" elapsed="0.000000"/>
+</kw>
+<kw name="Acessar Checkout">
+<status status="NOT RUN" start="2024-10-29T21:10:08.638336" elapsed="0.000000"/>
+</kw>
+<kw name="Total do Carrinho deve ser a Soma dos Produtos">
+<status status="NOT RUN" start="2024-10-29T21:10:08.638336" elapsed="0.000000"/>
+</kw>
+<kw name="Realizar Logout">
+<status status="NOT RUN" start="2024-10-29T21:10:08.639338" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-10-29T21:10:08.633336" elapsed="0.006002">No keyword with name 'Acessar pagina Saucedemo' found.</status>
+</test>
+<status status="FAIL" start="2024-10-29T21:10:08.484818" elapsed="0.155519"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="SuiteCompras">SuiteCompras</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-10-29T21:10:08.430817" level="ERROR">Error in file 'c:\Users\u24464\Documents\GitHub\PO\suites\SuiteCompras.robot' on line 3: Non-existing setting 'Resouuce'. Did you mean:
+    Resource</msg>
+<msg time="2024-10-29T21:10:08.609336" level="ERROR">Error in file 'c:\Users\u24464\Documents\GitHub\PO\suites\SuiteCompras.robot' on line 2: Initializing library 'Browser' with no arguments failed: Could not find node dependencies in installation directory `C:\Users\u24464\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper.` Run `rfbrowser init` to install the dependencies.
+Traceback (most recent call last):
+  File "C:\Users\u24464\AppData\Roaming\Python\Python312\site-packages\Browser\browser.py", line 875, in __init__
+    self.playwright = Playwright(
+                      ^^^^^^^^^^^
+  File "C:\Users\u24464\AppData\Roaming\Python\Python312\site-packages\Browser\playwright.py", line 53, in __init__
+    self.ensure_node_dependencies()
+  File "C:\Users\u24464\AppData\Roaming\Python\Python312\site-packages\Browser\playwright.py", line 85, in ensure_node_dependencies
+    raise RuntimeError(
+RuntimeError: Could not find node dependencies in installation directory `C:\Users\u24464\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper.` Run `rfbrowser init` to install the dependencies.</msg>
+<msg time="2024-10-29T21:10:08.630338" level="ERROR">Error in file 'c:\Users\u24464\Documents\GitHub\PO\resource\pages\loginPage.robot' on line 2: Initializing library 'Browser' with no arguments failed: Could not find node dependencies in installation directory `C:\Users\u24464\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper.` Run `rfbrowser init` to install the dependencies.
+Traceback (most recent call last):
+  File "C:\Users\u24464\AppData\Roaming\Python\Python312\site-packages\Browser\browser.py", line 875, in __init__
+    self.playwright = Playwright(
+                      ^^^^^^^^^^^
+  File "C:\Users\u24464\AppData\Roaming\Python\Python312\site-packages\Browser\playwright.py", line 53, in __init__
+    self.ensure_node_dependencies()
+  File "C:\Users\u24464\AppData\Roaming\Python\Python312\site-packages\Browser\playwright.py", line 85, in ensure_node_dependencies
+    raise RuntimeError(
+RuntimeError: Could not find node dependencies in installation directory `C:\Users\u24464\AppData\Roaming\Python\Python312\site-packages\Browser\wrapper.` Run `rfbrowser init` to install the dependencies.</msg>
+</errors>
+</robot>
